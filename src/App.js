@@ -1,10 +1,6 @@
 import './App.css'
 import {useEffect} from 'react'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from 'react-router-dom'
+import {HashRouter as Router, Switch, Route} from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './components/pages/Home'
 import Services from './components/pages/Services'
@@ -34,7 +30,7 @@ const ScrollToTop = ({history, location}) => {
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/">
         <Route component={ScrollToTop} />
         <Navbar />
         <Switch>
