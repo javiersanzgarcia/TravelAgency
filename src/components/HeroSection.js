@@ -1,12 +1,12 @@
 import './HeroSection.css'
 import '../App.css'
 import {Button} from './Button'
-import videoURL from '../assets/videos/video-1.mp4'
+/* import videoURL from '../assets/videos/video-1.mp4' */
 
 const HeroSection = () => {
   return (
     <div className="hero-container">
-      <video src={videoURL} autoPlay loop muted />
+      {/* <video src={videoURL} autoPlay loop muted /> */}
       <h1>ADVENTURE AWAITS</h1>
       <p>What are you waiting for?</p>
       <div className="hero-btns">
