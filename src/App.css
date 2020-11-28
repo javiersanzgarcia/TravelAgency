@@ -42,3 +42,31 @@
   color: #fff;
   font-size: 100px;
 }
+
+@media screen and (max-width: 960px) {
+  .services {
+    font-size: 70px;
+  }
+
+  .products {
+    font-size: 70px;
+  }
+
+  .sign-up {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services {
+    font-size: 50px;
+  }
+
+  .products {
+    font-size: 50px;
+  }
+
+  .sign-up {
+    font-size: 50px;
+  }
+}
